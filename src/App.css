@@ -1,0 +1,56 @@
+.div{
+    display: flex;
+}
+.input{
+    margin-left: 600px;
+    margin-top: 15PX;
+    width: 250PX;
+    height: 40PX;
+    outline: none;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    margin-top: 15PX;
+    margin-left: 10px;
+    background-color: rgb(3, 63, 3);
+    font-size:20px;
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.p{
+    font-weight: bold;
+    color: red;
+}
+.p:hover{
+    animation:move 1s linear forwards;
+}
+@keyframes move{
+    0%{
+        transform: translate(50px);
+        transition: 2s;
+    }
+    100%{
+        transform: translate(0);
+        transition: 2s;
+    }
+}
+.img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    
+}
+.img:hover{
+    animation: come 2s linear forwards;
+}
+@keyframes come{
+    0%{
+        scale: 1;
+    }
+    100%{
+        scale: 0.9;
+    }
+}
+

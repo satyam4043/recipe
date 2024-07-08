@@ -1,0 +1,6 @@
+https://api.edamam.com/search?q="pizza"&app_id=71d0de47&app_key=
+26a7eb026cac2e733b358619ab449af2	
+
+
+email-agnihotrisatyam483@gmail.com
+password-123456
