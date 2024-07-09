@@ -23,15 +23,15 @@ const SingleRecipe = () => {
         <p>{location.state.recipe.totalNutrients.CA.label}</p>
         <p>{Math.ceil(location.state.recipe.totalNutrients.CA.quantity)}mg</p>
     </div>
-    <div className='col-2 '>
+    <div className='col-3 '>
 <p>{location.state.recipe.totalDaily.FAT.label}</p>
 <p>{Math.ceil(location.state.recipe.totalNutrients.FAT.quantity)}mg</p>
     </div>
-    <div className='col-2 '>
+    <div className='col-3 '>
     <p>{location.state.recipe.totalNutrients.SUGAR.label}</p>
     <p>{Math.ceil(location.state.recipe.totalNutrients.SUGAR.quantity)}mg</p>
     </div>
-    <div className='col-2 '>
+    <div className='col-3 '>
     <p>{location.state.recipe.totalNutrients.PROCNT.label}</p>
     <p>{Math.ceil(location.state.recipe.totalNutrients.PROCNT.quantity)}mg</p>
     </div>
