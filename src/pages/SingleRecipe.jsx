@@ -19,7 +19,7 @@ const SingleRecipe = () => {
 <h3>Title:{location.state.recipe.label}</h3>
 <h4 className='mt-3'>Meal type:{location.state.recipe.mealType}</h4>
 <div className='row d-flex justify-content-center gap-4 mt-5'>
-    <div className='col-2 '>
+    <div className='col-3 '>
         <p>{location.state.recipe.totalNutrients.CA.label}</p>
         <p>{Math.ceil(location.state.recipe.totalNutrients.CA.quantity)}mg</p>
     </div>
