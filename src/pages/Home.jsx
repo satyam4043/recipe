@@ -40,13 +40,16 @@ console.log(allFood)
  
 
   return (
+<div>
+  
+<div className='col-md-6 my-3 m-auto'>
+    <input ref={inputRef} className='input' type="text" placeholder='Search'/>
+    <button  onClick={hanldeClick} className='button'>Search</button>
+    </div>
 
     <div className='row d-flex justify-content-center gap-2
     '>
-      <div className='col-md-6 my-3 m-auto'>
-      <input ref={inputRef} className='input' type="text" placeholder='Search'/>
-      <button  onClick={hanldeClick} className='button'>Search</button>
-      </div>
+    
       
        
 {allFood.map((ele,index)=>{
@@ -63,6 +66,7 @@ console.log(allFood)
 })}
 
     </div>
+</div>
   )
 }
 
