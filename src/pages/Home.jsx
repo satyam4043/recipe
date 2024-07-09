@@ -42,10 +42,10 @@ console.log(allFood)
   return (
 <div>
   
-<div className='col-md-6 my-3 m-auto'>
-    <input ref={inputRef}  type="text" placeholder='Search'/>
+<form className='container d-flex col-md-6 my-3 m-auto' role="search">
+    <input ref={inputRef} className='form-control me-2'  type="text" placeholder='Search' aria-label='Search'/>
     <button  onClick={hanldeClick} className='btn btn-success'>Search</button>
-    </div>
+    </form>
 
     <div className='row d-flex justify-content-center gap-2
     '>
