@@ -58,7 +58,7 @@ console.log(allFood)
   <div className="card-body">
     <h5 className="card-title">{ele.recipe.label}</h5>
     <p className={ele.recipe.label}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <Link state={ele} to="/single" className="btn btn-primary">Go somewhere</Link>
+    <Link state={ele} to="/single" className="btn btn-primary ">Go somewhere</Link>
     {/* <button onClick={()=>handleclick(ele)}>Clik me</button> */}
   </div>
 </div>
